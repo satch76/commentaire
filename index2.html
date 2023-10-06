@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentaires</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ecrire un commentaire</h1>
+        <div id="commentList"></div>
+        <form id="commentForm">
+            <div class="input-group">
+                <div class="input-half">
+                    <label for="firstName">Prénom:</label>
+                    <input type="text" id="firstName" required>
+                </div>
+                <div class="input-half">
+                    <label for="lastName">Nom:</label>
+                    <input type="text" id="lastName" required>
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="comment">Commentaire:</label>
+                <textarea id="comment" rows="4" required></textarea>
+            </div>
+            <button type="submit">envoyer</button>
+        </form>
+      
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
+       
